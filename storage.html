@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storage Page</title>
+</head>
+<style>
+
+    table,th,td,tr{
+        border: 1px solid black;
+    }
+
+</style>
+<body>
+    <h1>Welcome to the Storage Page</h1>
+    
+    <div id="userData">
+        <!-- User data will be displayed here -->
+    </div>
+    
+    <div id="pdfList">
+        <!-- PDF files will be listed here -->
+    </div>
+    
+    <button id="logoutButton" onclick="logoutButton()">Logout</button>
+
+
+     <div class="div">
+        <table id="file-list">
+         <tr>
+            <th>Abc</th>
+            <td>download</td>
+          </tr>
+        </table>
+     </div>
+
+     
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-storage.js"></script>
+    <script src="storage.js"></script>
+</body>
+</html>
